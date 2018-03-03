@@ -1,0 +1,125 @@
+*{
+ margin:0px;
+ padding:0px;
+}
+
+body{
+ background-image:url("m.jpg");;
+}
+
+#check{
+ display:none;
+}
+
+#icone{
+ cursor:pointer;
+ padding:15px;
+ position:absolute;
+ z-index:1;
+}
+
+.barra{
+ background-image:url("mm.jpg");
+ height:100%;
+ width:300px;
+ position:absolute;
+ transition:all .2s linear;
+ left:-300px;
+}
+
+nav{
+ width:100%;
+ position:absolute;
+ top:60px;
+}
+
+
+nav a{
+ text-decoration:none;
+}
+
+.link{
+ background-image:url("mmm.jpg");
+ padding:20px;
+ font-family:"arial";
+ font-size:12pt;
+ transition:all .2s linear;
+ color:#f4f4f9;
+ border-bottom:2px solid #222;
+ opacity:0;
+ margin-top:200px;
+}
+
+.link:hover{
+ background-image:url("f.jpg");
+ animation-name:brilho;
+ animation-name:cor;
+ animation-iteration-count: infinite;
+ animation-duration:5s;
+ 
+}
+
+@keyframes cor{
+	0,100%{color:#0ff}
+	25%{color:#F0FFFF}
+	50%{color:#FFFFE0}
+	75%{color:#CD950C}
+	
+}
+
+#check:checked ~ .barra{
+ transform:translateX(300px);
+}
+ 
+#check:checked ~ .barra nav a .link{
+ opacity: 1;
+ margin-top:0;
+ transition-delay: .2s;
+}
+	
+h1{
+  	font-size:25px;
+	text-align:center;
+	font-family:"Arial";
+	animation-duration:5s;
+	animation-name:brilho;
+	animation-iteration-count: infinite;
+	animation-name:cor_fonte;
+	
+	
+}
+@keyframes brilho{
+	50%{text-shadow: 0px 0px 9px}
+}
+
+@keyframes cor_fonte{
+	0,100%{color:#0ff}
+	25%{color:#006400}
+	50%{color:#FF0000}
+	75%{color:#FFFF00}
+	
+}
+
+h1:hover{
+  	font-size:30px;
+	text-align:center;
+	font-family:"Arial";
+	animation-duration:7s;
+	animation-name:brilho;
+	animation-iteration-count: infinite;
+	animation-name:cor_fonte;
+	
+	
+}
+@keyframes brilho{
+	50%{text-shadow: 0px 0px 9px}
+}
+
+@keyframes cor_fonte{
+	0,100%{color:#0ff}
+	25%{color:#006400}
+	50%{color:#FF0000}
+	75%{color:#FFFF00}
+	
+}
+
