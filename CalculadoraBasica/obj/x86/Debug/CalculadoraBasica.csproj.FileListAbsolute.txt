@@ -1,0 +1,7 @@
+G:\C#\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.frmPrincipal.resources
+G:\C#\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.Properties.Resources.resources
+G:\C#\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.csproj.GenerateResource.Cache
+G:\C#\CalculadoraBasica\CalculadoraBasica\bin\Debug\CalculadoraBasica.exe
+G:\C#\CalculadoraBasica\CalculadoraBasica\bin\Debug\CalculadoraBasica.pdb
+G:\C#\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.exe
+G:\C#\CalculadoraBasica\CalculadoraBasica\obj\x86\Debug\CalculadoraBasica.pdb
